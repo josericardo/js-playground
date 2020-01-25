@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Gamedev Canvas Workshop</title>
+    <style>
+    	* { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; margin-top: 50px;}
+      #music-credits { text-align: center; }
+      #musicPlayerContainer { width: 300px; margin: 0 auto; margin-top: 50px; }
+    </style>
+</head>
+  <body>
+    <canvas id="myCanvas" width="1000" height="600"></canvas>
+    <div id="musicPlayerContainer">
+      <audio id="musicPlayer" controls loop>
+        <source src="Fantasy_Game_Background_Looping.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <p id="music-credits"><a href="https://soundimage.org">Music by Eric Matyas</a></p>
+
+    <script src="game.js"></script>
+  </body>
+</html>
